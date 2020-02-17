@@ -1,9 +1,18 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
-
+h1, h2 {
+font-weight: 700;
+}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.5em;
+}
 .header {
-  border-bottom: 1px solid;  
+  border-bottom: 1px solid;
+  background-color: 
 }
 
 .sites {
@@ -20,36 +29,38 @@ body {
 }
 
 @media (min-width:400px){
-body {
-  width: 80vw;
-  margin-left: 10vw;
+  .container, .header h1, .header p {
+    width: 80vw;
+    margin-left: 10vw;
+}
+  
+  .header {
+    padding: 1em 0;
+  }
+  
+  .sites li {
+    width: 34vw;
+    margin: .5em;
 
 }
 
-.sites li {
-  width: 34vw;
-  margin: .5em;
-
-}
-
-.sites a {
+  .sites a {
   
 }
 
-.sites p {
-  width: 20vw;
-  padding: .5em;
-}
+  .sites p {
+    width: 20vw;
+    padding: .5em;
+  }
 
-.sites img {
-  height: 100%;
-}
+  .sites img {
+    height: 100%;
+  }
 }
 @media (max-width:400px){
   .sites {
     display: block;
-    margin-left: -2rem;
-    
+        
   }
   .sites li {
     width: auto;
