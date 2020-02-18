@@ -69,7 +69,7 @@ h2 {
   }
   .sites li {
     width: auto;
-    flex-direction: row-reverse;
+    
     border: none;
     border-bottom:1px solid #9e9e9e;
     margin: .5em 0;
